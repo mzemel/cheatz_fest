@@ -12,11 +12,9 @@ Require this gem at the top of your lib, e.g.
 require 'cheatz_fest'
 
 class Bottles
-  def initialize; end
+  include CheatzFest
 
-  def cheat(*args)
-    CheatzFest.cheat
-  end
+  def initialize; end
 
   # alias your public methods to :cheat here
 end
