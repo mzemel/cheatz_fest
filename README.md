@@ -3,7 +3,7 @@
 Include this gem in your project's Gemfile:
 
 ```ruby
-gem "cheatz_fest", path: "PATH_TO_THIS_GEM" # e.g. "../cheatz_fest"
+gem "cheatz_fest", github: "mzemel/cheatz_fest"
 ```
 
 Require this gem at the top of your lib, e.g.
