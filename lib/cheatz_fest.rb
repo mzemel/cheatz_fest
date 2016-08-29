@@ -1,5 +1,4 @@
 require "cheatz_fest/version"
-require 'pry'
 
 module CheatzFest
 
